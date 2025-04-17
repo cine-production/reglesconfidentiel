@@ -1,0 +1,8 @@
+# Politique de confidentialité
+
+L'extension "PHUIC Emergency Mode" ne collecte pas de données personnelles identifiables.  
+Nous utilisons uniquement l'adresse IP publique, de manière anonyme, dans le but de comptabiliser les utilisateurs actifs.  
+Aucune autre donnée (nom, email, historique, etc.) n’est collectée ou stockée.  
+Aucune donnée n'est vendue ou partagée à des tiers.
+
+Dernière mise à jour : avril 2025

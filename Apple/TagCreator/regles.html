@@ -1,0 +1,56 @@
+Politique de Confidentialité pour Tag Creator
+Date d'entrée en vigueur : 19 Octobre 2025
+La confidentialité de nos utilisateurs est une priorité pour nous. Cette politique de confidentialité explique comment l'application Tag Creator gère les données des utilisateurs, avec un engagement à minimiser la collecte et à protéger votre vie privée.
+1. Collecte de Données
+Tag Creator est une application iOS qui permet de créer, gérer et associer des tags NFC à des événements. Nous utilisons Firebase (Firestore, Crashlytics, Analytics) pour certaines fonctionnalités, mais nous limitons la collecte de données au strict minimum nécessaire.
+Données collectées :
+
+Données non personnelles :
+
+Données d'utilisation anonymes : Firebase Analytics peut collecter des données anonymes sur l'utilisation de l'application (par exemple, le nombre de tags créés ou les clics sur certains boutons) pour améliorer l'expérience utilisateur. Ces données ne sont pas liées à votre identité.
+Rapports de crash : Firebase Crashlytics collecte des informations anonymes sur les plantages de l'application (par exemple, type d'appareil, version d'iOS, erreurs techniques) pour nous aider à diagnostiquer et corriger les problèmes.
+Données des tags et événements : Les informations saisies dans l'application (par exemple, "Assigné à", URL de redirection, nom de l'événement, dates) sont stockées dans Firebase Firestore. Ces données sont associées à des identifiants uniques générés par l'application et ne contiennent pas d'informations personnelles identifiables à moins que vous ne choisissiez de les inclure dans les champs saisis (par exemple, un nom dans "Assigné à").
+
+
+Ce que nous ne collectons pas :
+
+Aucune information personnelle identifiable (nom, adresse e-mail, localisation, etc.), sauf si vous l'entrez volontairement dans les champs "Assigné à" ou URL.
+Aucun identifiant d'appareil unique (par exemple, UDID).
+Aucun contenu de vos communications ou données sensibles non liées aux tags/événements.
+
+
+
+Fonctionnement NFC :
+L'application utilise Core NFC pour écrire des URLs sur des tags NFC (NTAG213, NTAG215, NTAG216). Toutes les opérations NFC sont effectuées localement sur votre appareil. Aucune donnée NFC n'est collectée ou envoyée à nos serveurs, sauf les informations que vous choisissez de sauvegarder dans Firestore (ID du tag, "Assigné à", URL).
+2. Stockage des Données
+Les données saisies dans Tag Creator (tags et événements) sont stockées dans Firebase Firestore, une base de données cloud sécurisée. Ces données incluent :
+
+Pour les tags : ID unique, "Assigné à", URL de redirection, statut actif/inactif.
+Pour les événements : ID unique, nom, dates de début et de fin, liste d'IDs de tags associés.
+
+Ces données sont stockées pour permettre la gestion des tags et événements dans l'application. Vous pouvez supprimer ces données à tout moment via les fonctionnalités de suppression de l'application (par exemple, supprimer un tag ou un événement).
+3. Services Tiers
+Tag Creator utilise les services suivants de Google Firebase :
+
+Firebase Firestore : Pour stocker et synchroniser les données des tags et événements.
+Firebase Crashlytics : Pour collecter des rapports de crash anonymes afin d'améliorer la stabilité de l'application.
+Firebase Analytics : Pour collecter des données d'utilisation anonymes afin d'améliorer les fonctionnalités.
+
+Ces services peuvent traiter des données anonymes, mais ne collectent pas d'informations personnelles identifiables sauf si vous les fournissez volontairement dans les champs de l'application. Pour plus de détails, consultez les politiques de confidentialité de Google Firebase : https://firebase.google.com/support/privacy.
+Aucun autre service tiers (publicité, suivi, etc.) n'est intégré dans l'application.
+4. Partage des Données
+Nous ne partageons aucune donnée personnelle avec des tiers, sauf dans les cas suivants :
+
+Les données stockées dans Firebase Firestore (tags et événements) sont hébergées sur les serveurs de Google, conformément à leurs politiques de sécurité.
+Les rapports de crash anonymes (via Crashlytics) et les données d'utilisation anonymes (via Analytics) sont partagés avec Google pour améliorer l'application.
+
+Si vous entrez des informations personnelles dans les champs "Assigné à" ou URL, soyez conscient que ces données seront stockées dans Firestore et pourraient être accessibles à d'autres utilisateurs ayant accès à la même base de données (selon les règles de sécurité Firestore).
+5. Sécurité
+Nous utilisons Firebase Firestore avec des règles de sécurité pour protéger les données stockées. Cependant, aucune méthode de transmission ou de stockage sur Internet n'est totalement sécurisée. Nous vous recommandons de ne pas inclure d'informations sensibles dans les champs "Assigné à" ou URL.
+6. Consentement
+En utilisant Tag Creator, vous acceptez cette politique de confidentialité et le traitement des données anonymes par Firebase Analytics et Crashlytics, ainsi que le stockage des données saisies dans Firestore. Vous pouvez supprimer vos données à tout moment via l'application.
+7. Modifications de la Politique de Confidentialité
+Nous pouvons mettre à jour cette politique de confidentialité occasionnellement pour refléter les évolutions de l'application ou des services tiers. Toute modification sera publiée sur cette page, et la date d'entrée en vigueur sera mise à jour.
+8. Contactez-nous
+Si vous avez des questions concernant cette politique de confidentialité ou l'utilisation de vos données, veuillez nous contacter à l'adresse suivante :
+Adresse e-mail de contact : adimarcel67@gmail.com
